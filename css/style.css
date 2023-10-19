@@ -9,23 +9,50 @@ body{
     background-color: gold;
 }
 
-header p{
+header h1{
 background-color: black;
 color: goldenrod;
 font-size: 3rem;
 font-style:oblique;
 }
 
-header ol{
-    flex-flow: row nowrap;
+nav ol{
+    flex-flow: column wrap;
     justify-content: center;
     align-content: stretch;
     
 }
 
-header a{
+nav li{
     height: 2rem;
     background-color: goldenrod;
     border: black double 0.2rem;
     color: black;
+}
+
+.primer{
+    margin-top: 20px;
+}
+
+h2{
+    color: black;
+    font-size: 2rem;
+}
+
+.video{
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotos{
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+.fotos1{
+    height: 400px;
+    width: 100px;
 }
