@@ -6,7 +6,7 @@
 
 
 body{
-    background-color: gold;
+    background-color: rgb(172, 150, 26);
 }
 
 header h1{
@@ -16,18 +16,18 @@ font-size: 3rem;
 font-style:oblique;
 }
 
-nav ol{
-    flex-flow: column wrap;
+nav {
+    background-color: black;
+    display: flex;
+    ul {
+        flex-flow: column wrap;
     justify-content: center;
     align-content: stretch;
-    
-}
-
-nav li{
-    height: 2rem;
-    background-color: goldenrod;
-    border: black double 0.2rem;
-    color: black;
+    li {height: 2rem;
+        background-color: goldenrod;
+        border: black double 0.2rem;
+        color: black;}
+    }
 }
 
 .primer{
